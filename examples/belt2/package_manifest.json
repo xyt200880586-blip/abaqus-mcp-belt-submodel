@@ -1,0 +1,95 @@
+{
+  "scope": "Belt2 final model and necessary axisymmetric 2D source; no 3D ODB or historical checkpoints",
+  "date": "2026-10-13",
+  "files": {
+    "source_2d/2D.inp": {
+      "bytes": 203942,
+      "sha256": "e3e7207cbcbb6c80b55434ad58466df5f5ddcb3044ec55b6572d918ba12c72e2"
+    },
+    "source_2d/2D.odb": {
+      "bytes": 11462256,
+      "sha256": "ae2b73551bd7589435f7cc15afd1f0f2211055041a7d91976f6553038c284ac2"
+    },
+    "source_2d/material.lib": {
+      "bytes": 2529,
+      "sha256": "3062ec7500e22203b4bb27570cb48cba8e9cb421bc01f60f82124cbf0d371bfd"
+    },
+    "source_2d/PARAMETER.INP": {
+      "bytes": 6954,
+      "sha256": "1d59071cfa30bc7c5a7766d4aeed4cd566e435ca0103a993c86a2e805eefa26d"
+    },
+    "belt2/belt2_curved50_embedded_meshed.cae": {
+      "bytes": 8511488,
+      "sha256": "8ede243becce57fa608da487d74d429b62a78a9476076c329ac9ea77df404cb4"
+    },
+    "belt2/belt2_curved50_embedded_geometry.cae": {
+      "bytes": 6701056,
+      "sha256": "0c94201eef324b40f765f907da98c9b71fce7bd8b9b5cb47efda44b5c55f0d66"
+    },
+    "belt2/belt2_curved50_mesh_review.inp": {
+      "bytes": 6057511,
+      "sha256": "54e7dd01e161d99c98352566b009f8e1b243e970938ed95d1e147bf9f0e481b1"
+    },
+    "belt2/mesh_arrays.npz": {
+      "bytes": 1248534,
+      "sha256": "d1de5cda46e63519d6ccea82580aae7d26b75862696cf36b560b06333e7cc185"
+    },
+    "belt2/host_node_map.npz": {
+      "bytes": 1693827,
+      "sha256": "5c6755fc8ce64162f86c43cb0e037d77eb17eaaa69a21cdb806db5de3e47d354"
+    },
+    "belt2/mesh_quality_warnings.csv": {
+      "bytes": 301298,
+      "sha256": "424d46487773c7c0e0c7478247b60827c59548782d150d661ad5a72bf81f1f3e"
+    },
+    "belt2/建模与网格检查报告.md": {
+      "bytes": 5775,
+      "sha256": "49e521fa6b5e14598d31b02a6b2cc914362fec5d76f4be50ccd348904b5dd146"
+    },
+    "belt2/source_audit.json": {
+      "bytes": 3648,
+      "sha256": "f4ac22e05579ac8bb354382457b96388fbe831a31145beba8249403f3d1f201e"
+    },
+    "belt2/geometry_audit.json": {
+      "bytes": 704,
+      "sha256": "a541d2a73c174c11f78633766ff0962fce30da6c63c7114cbe4d0564ba079332"
+    },
+    "belt2/whole_rubber_audit.json": {
+      "bytes": 488,
+      "sha256": "3f34dba8619525bf90d6c28b47e69c30f07b962279d3ee9614a37a3f4d1847bb"
+    },
+    "belt2/cord_path_audit.json": {
+      "bytes": 308,
+      "sha256": "5c2235f56e494af26da0fdde3938aef02840a440f743f8d41b7b5fb4aee0649f"
+    },
+    "belt2/cord_partition_audit.json": {
+      "bytes": 288,
+      "sha256": "35d78519bb8476393c471a87330ddd3e2c25a9b00bed772e2324282c2e775f96"
+    },
+    "belt2/mesh_audit.json": {
+      "bytes": 1483,
+      "sha256": "a702c1327a8aabb42d960204531d2f527b28ffde3735f068b366dcad6ecbb8dd"
+    },
+    "belt2/independent_mesh_check.json": {
+      "bytes": 886,
+      "sha256": "819e9399867bb9378c5a67f04456975ddf778676a2fcfa0c618aeba0ff5da625"
+    },
+    "belt2/host_containment_check.json": {
+      "bytes": 409,
+      "sha256": "7c3545ca2ff4c30a7be0efb0c6f3d3d622d09bcf5163aa66948ed24e2c0e7bd0"
+    },
+    "belt2/saved_cae_check.json": {
+      "bytes": 1522,
+      "sha256": "84a1d3ca5fcf9665b64e4b0de1e3fbb36d4408b94e0e9445be72f72cd486427b"
+    },
+    "belt2/manifest.json": {
+      "bytes": 2070,
+      "sha256": "a1209425d29cd37d516c3cb2965ef8e64914cd8cd749fcd246c5ccb5cd4f7d49"
+    }
+  },
+  "archive": {
+    "filename": "Belt2_MCP_model_and_2D_source.zip",
+    "bytes": 24011780,
+    "sha256": "2019ffbbfebd16dcb0cbd1e6f7d5a52257742479cc897b61918d1183ebdf5387"
+  }
+}
