@@ -1,0 +1,6 @@
+interface:
+  display_name: "Abaqus MCP 带束层子模型"
+  short_description: "实时 CAE 建立整体橡胶与实体帘线，切分复杂端部并验收六面体网格"
+  default_prompt: "使用 $abaqus-mcp-belt-submodel，通过实时 Abaqus MCP 建立目标带束层子模型，沿用当前确认的材料、连接和网格要求，不默认生成预览图片。"
+policy:
+  allow_implicit_invocation: true
